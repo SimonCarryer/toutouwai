@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <link rel="stylesheet" href="styles/cardStyle.css">
+    <link rel="stylesheet" href="styles/chartStyle.css">
+    <link rel="stylesheet" href="styles/navStyle.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="constants.js"></script>
+    <script src="scripts/authenticate.js"></script>
+
+</head>
+<title>My Neighbour Toutouwai</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+    <nav class="navbar">
+        <a class="title" href="#">My Neighbour Toutouwai</a>
+        <ul>
+            <li>
+              <a href="#" onclick="switchPage('mapContainer')">Map</a>
+            </li>
+            <li>
+              <a href="#" onclick="switchPage('chart')">Chart</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+          </ul>
+    </nav>
+    <div class="pageContainer">
+        <div id="mapContainer" class="page ">
+        <div class="pageHeader"><h1>Waimapihi Toutowai 2023</h1>Active (🔵) and abandoned (🔴) territories.</div>
+        <div id="map"></div>
+    </div>
+        <div id="chart" class="page chartContainer offscreen">
+            <div class="pageHeader"><h1>Waimapihi Toutowai 2023</h1>Timeline of birds identified in the reserve in 2023, from banding to breeding season.</div>
+            <div class="chart">
+                <div class="chartBackground">
+                    <div class="chartBlock">Jan<br>(Breeding season ends)</div>
+                    <div class="chartBlock">Feb</div>
+                    <div class="chartBlock">Mar</div>
+                    <div class="chartBlock">Apr</div>
+                    <div class="chartBlock">May</div>
+                    <div class="chartBlock">Jun</div>
+                    <div class="chartBlock">Jul</div>
+                    <div class="chartBlock">Aug</div>
+                    <div class="chartBlock">Sep</div>
+                    <div class="chartBlock">Oct</div>
+                    <div class="chartBlock">Nov<br>(Breeding season begins)</div>
+                    <div class="chartBlock">Dec</div>
+                </div>
+                <div id="chartBars" class="bars"></div>
+            </div>
+        </div>
+    </div>
+    <div class="birdCards"></div>
+<script src="scripts/data.js"></script>
+<script src="scripts/page.js"></script>
+<script src="scripts/birdCards.js"></script>
+<script src="scripts/map.js"></script>
+<script src="scripts/chart.js"></script>
+</body>
