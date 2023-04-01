@@ -53,7 +53,7 @@ data = [
     "territory": {"text": "Trap 75, Clinical", "lat": -41.29674557743481, "lng": 174.75276856728402}, 
     "banded": "21-02-2023",
     "confirmed_missing": "",
-    "description": "Possibly from a successful nest in Waimapihi in 2022. Not seen since ",
+    "description": "Possibly from a successful nest in Waimapihi in 2022.",
     "images": []
 },
 {"band":"WM-RY",

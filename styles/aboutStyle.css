@@ -1,7 +1,19 @@
 .aboutPage {
     margin: auto;
     max-width: 40em;
-    height: auto;
+     height: auto;
+}
+
+.aboutImage {
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.aboutImage > img {
+    position: relative;
+    object-fit: scale-down;
+    height: 300px;
 }
 
 @media screen and (max-width: 665px) {
