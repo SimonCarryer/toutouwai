@@ -1,0 +1,13 @@
+.aboutPage {
+    margin: auto;
+    max-width: 40em;
+    height: auto;
+}
+
+@media screen and (max-width: 665px) {
+
+    .aboutPage {
+        margin: 1em;
+  }
+}
+

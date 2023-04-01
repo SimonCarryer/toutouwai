@@ -1,15 +1,17 @@
     .birdCards {
         width: 100%;
-        margin: auto;
+        margin: auto; 
     }
+    
   .birdCard {
     position: absolute;
     top: 6px;
     margin: auto;
-    max-width: 600px;
+    max-width: 500px;
     width: 100%;
+    min-height: 600px;
     padding-top: 10px;
-    border-radius: 30px;
+    border-radius: 20px;
     background-color: #b0b2b0;
     display: none;
     }
@@ -122,4 +124,29 @@
   }
   .close:after {
     transform: rotate(-45deg);
+  }
+
+
+
+  @media screen and (max-width: 665px) {
+
+    .birdCards {
+      width: 100%;
+      margin: auto;
+      height: 100%;
+  }
+
+    .birdCard{
+    position: absolute;
+    top: 0px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+    display: none;
+    border-radius: 0%;
+  }
+  .active {
+    display: block;
+  }
   }

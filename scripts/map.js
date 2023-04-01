@@ -52,7 +52,6 @@ function initMap() {
       mapTypeId: 'hybrid',
       minZoom: 15,
       maxZoom: 19,
-      mapId: 'DEMO_MAP_ID',
       restriction: {
         latLngBounds: {
           north: -41.29252013624898,
@@ -63,6 +62,17 @@ function initMap() {
       },
     
     });
+
+    var noPoi = [
+      {
+          featureType: "poi",
+          stylers: [
+            { visibility: "off" }
+          ]   
+        }
+      ];
+      
+    map.setOptions({styles: noPoi});
 
     const infoWindow = new google.maps.InfoWindow();
 

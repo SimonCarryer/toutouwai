@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="styles/cardStyle.css">
     <link rel="stylesheet" href="styles/chartStyle.css">
     <link rel="stylesheet" href="styles/navStyle.css">
+    <link rel="stylesheet" href="styles/aboutStyle.css">
     <link rel="stylesheet" href="styles/style.css">
     <script src="constants.js"></script>
     <script src="scripts/authenticate.js"></script>
@@ -14,21 +15,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <body>
+    <div class="pageContainer">
     <nav class="navbar">
-        <a class="title" href="#">My Neighbour Toutouwai</a>
+        <a class="title" href="#"></a>
         <ul>
             <li>
               <a href="#" onclick="switchPage('mapContainer')">Map</a>
             </li>
             <li>
-              <a href="#" onclick="switchPage('chart')">Chart</a>
+              <a href="#" onclick="switchPage('chart')">Timeline</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#" onclick="switchPage('about')">About</a>
             </li>
           </ul>
     </nav>
-    <div class="pageContainer">
         <div id="mapContainer" class="page ">
         <div class="pageHeader"><h1>Waimapihi Toutowai 2023</h1>Active (🔵) and abandoned (🔴) territories.</div>
         <div id="map"></div>
@@ -51,6 +52,23 @@
                     <div class="chartBlock">Dec</div>
                 </div>
                 <div id="chartBars" class="bars"></div>
+            </div>
+        </div>
+        <div id="about" class="page offscreen">
+            <div class="pageHeader"><h1>Waimapihi Toutowai Monitoring</div>
+            <div class="aboutPage">
+                <h2>About the project</h2>
+                <p>Each year, young toutouwai leave their parents and safety inside Zealandia and go in search of their own territory. We know that many of these birds are trying to make their homes inside Waimapihi, but we don't know how many succeed, or how many fail.</p>
+                <p>This monitoring project is a partnership between researchers at Victoria University and Ngā Kaimanaaki o te Waimapihi. Keeping track of these young toutouwai will create vital knowledge - letting us know where birds go and how we can best help them survive in Waimapihi reserve.</p>
+                <p>This website collects the latest sighting data from our volunteers to show how the young Toutouwai are moving out into the reserve, and to track their survival through to the next breeding season.</p>
+                <h2>Ngā Kaimanaaki o te Waimapihi</h2>
+                <p>We're a community conservation group focused on restoring the mauri of Waimapihi Reserve through trapping, planting, manu monitoring, and more. Our kaupapa is to lay down the welcome mat and be neighbourly with our natives, ensuring that pets and native wildlife can live in harmony.</p>
+                <h2>How you can help</h2>
+                <h3>Join the group</h3>
+                <p>You can get involved is through our <a href="https://www.facebook.com/groups/Polhill">Facebook group</a>, where you can get in touch with members of the group and find out about opportunities to get involved. You can also report any sightings there.</p>
+                <h3>Cats at home</h3>
+                <p>One of the best ways you can support this project (especially if you live in the area) is to make sure your cats are kept inside - ideally all the time, but at least after dark when cats do most of their hunting. Groups like <a href="https://www.spca.nz/advice-and-welfare/article/keeping-your-cat-safe-and-happy-at-home">the SPCA</a> and <a href="https://predatorfreenz.org/toolkits/know-your-target-predators/cat/">Predator Free NZ</a> recommend keeping your cat indoors, both for the safety of your cat and to protect native wildlife.</p>
+
             </div>
         </div>
     </div>

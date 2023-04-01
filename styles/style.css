@@ -1,23 +1,28 @@
-body {
+html, body {
     background-color: #677568;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 #map {
     margin: auto;
-    height: 600px; /* The height is 400 pixels */
+    height: 100%; 
     width: 100%; /* The width is the width of the web page */
   }
 
 #mapContainer {
     margin: auto;
-    height: 600px; /* The height is 400 pixels */
+    height: 100%; 
     width: 100%; /* The width is the width of the web page */
+    overflow: hidden;
   }
 
 .pageContainer {
+    height: 100%;
     display: flex;
-    overflow-x: auto;
+    flex-direction: column;
 }
 
 .pageHeader {
@@ -38,7 +43,9 @@ body {
 
 .page {
  background-color: white;
-}
+ width: 100%;
+  display: flex;
+flex-direction: column;}
 
 h1 {
     margin: 0;
@@ -46,14 +53,9 @@ h1 {
 
     @media screen and (max-width: 665px) {
 
-      h1 {
+      .pageHeader > h1 {
         font-size: 1.5em;
         margin: 0;
         } 
 
-        body {
-          background-color: #677568;
-          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-          font-size: 0.8em;
-      }
     }
