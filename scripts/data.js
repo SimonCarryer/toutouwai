@@ -53,7 +53,7 @@ data = [
     "territory": {"text": "Trap 75, Clinical", "lat": -41.29674557743481, "lng": 174.75276856728402}, 
     "banded": "21-02-2023",
     "confirmed_missing": "",
-    "description": "Possibly from a successful nest in Waimapihi in 2022.",
+    "description": "Possibly from a successful nest in Waimapihi in 2022. Not seen since ",
     "images": []
 },
 {"band":"WM-RY",
@@ -87,5 +87,21 @@ data = [
     "confirmed_missing": "",
     "description": "Seen foraging in a pair with its sibling, WM-BR.",
     "images": [["2023.03.12_-_Unbanded_-_Trap_57_xmtd1t.jpg", "Rachel Woolford"], ["2023.03.12_-_Unbanded_-_Trap_57_vphsix.jpg", "Rachel Woolford"]]
+},
+{"band":"WM-GG",
+    "sex": "Unknown",
+    "territory": {"text": "Trap 57, Highbury Fling", "lat": -41.30188180450954, "lng": 174.75074340800776},
+    "banded": "27-03-2023",  
+    "confirmed_missing": "",
+    "description": "One of a pair that are often seen squabbling with each other.",
+    "images": []
+},
+{"band":"RG-WM",
+    "sex": "Unknown",
+    "territory": {"text": "Trap 57, Highbury Fling", "lat": -41.30209978994511, "lng": 174.7509928807005},
+    "banded": "27-03-2023",  
+    "confirmed_missing": "",
+    "description": "One of a pair that are often seen squabbling with each other.",
+    "images": []
 }
 ]

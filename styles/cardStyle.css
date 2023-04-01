@@ -2,10 +2,11 @@
         width: 100%;
         margin: auto; 
     }
-    
+
   .birdCard {
     position: absolute;
-    top: 6px;
+    top: 16px;
+    left: 16px;
     margin: auto;
     max-width: 500px;
     width: 100%;
@@ -129,12 +130,6 @@
 
 
   @media screen and (max-width: 665px) {
-
-    .birdCards {
-      width: 100%;
-      margin: auto;
-      height: 100%;
-  }
 
     .birdCard{
     position: absolute;
