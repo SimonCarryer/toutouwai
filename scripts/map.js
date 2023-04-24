@@ -13,6 +13,17 @@ function changeBird(band) {
     next.className += " active";
 }
 
+function addBirdCard(bird) {
+  let container = document.getElementsByClassName("birdCards")[0]
+  if (Array.from(container.children).filter(elem => elem.id == bird.band).length > 0) {
+    changeBird(bird.band)
+  }
+  else {
+    let div = buildCard(bird);
+    container.appendChild(div);
+  }
+}
+
 function makeMarker(bird, map, infoWindow) {
     var url = "https://maps.google.com/mapfiles/ms/icons/blue-dot.png"
     if (bird.confirmed_missing != "") {
@@ -31,7 +42,7 @@ function makeMarker(bird, map, infoWindow) {
     
 
       marker.addListener("click", () => {
-        changeBird(bird.band);
+        addBirdCard(bird);
         if (infowindow) {
             infowindow.close();
         }

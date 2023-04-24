@@ -1,7 +1,7 @@
 
 function buildCard(bird) {
     let div = document.createElement("div");
-    div.className = "birdCard";
+    div.className = "birdCard active";
     div.id = bird.band;
     div.appendChild(buildSlider(bird));
     div.appendChild(buildInfo(bird));
@@ -44,4 +44,4 @@ function buildCards() {
     });
 }
 
-buildCards()
+//buildCards()
