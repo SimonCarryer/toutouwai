@@ -115,8 +115,8 @@ data = [
     "sex": "Unknown",
     "territory": {"text": "Trap 58-59, Highbury Fling", "lat": -41.30136420719939, "lng": 174.75091722167355},
     "banded": "12-04-2023",  
-    "confirmed_missing": "",
+    "confirmed_missing": "",    
     "description": ".",
-    "images": [["2023.04.17_-_YY-WM_-_Trap_62_Highbury_Fling_lx0rsp.jpg", "Rachel Woolford"]]
+    "images": [["2023.04.17_-_WM-WR_-_Trap_61_Highbury_Fling_hxk6in.jpg", "Rachel Woolford"]]
 }
-]   
+] 
