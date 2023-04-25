@@ -5,7 +5,15 @@ data = [
     "banded": "25-11-2022",
     "confirmed_missing": "23-02-2023",
     "description": "The first bird banded as part of the Waimapihi monitoring project. Missing since February 2023, likely killed by a predator.",
-    "images": [["2022.11.28_-_RW-WM_Transient_anuy8c.jpg", "Rachel Woolford"], ["2022.12.14_-_RW-WM_Transient_mfjjsv.jpg", "Rachel Woolford"], ["2023.01.23_-_RW-WM_Transient_tpykkn.jpg", "Rachel Woolford"]]
+    "images": [["2022.11.28_-_RW-WM_Transient_kb4g6o.jpg", "Rachel Woolford"], ["2022.12.14_-_RW-WM_Transient_ap5kcw.jpg", "Rachel Woolford"], ["2023.01.23_-_RW-WM_Transient_bjpg11.jpg", "Rachel Woolford"]]
+},
+{"band":"WM-RY",
+    "sex": "Unknown",
+    "territory": {"text": "Traps 81-82, Clinical", "lat": -41.29886547584023, "lng": 174.75193693074326},
+    "banded": "25-01-2023",
+    "confirmed_missing": "25-02-2023",
+    "description": "An elusive bird that seemed to hide from banding. Last seen in Feb 2023 and presumed killed.",
+    "images": [["2023.01.25_-_Clinical_Trap_81-82_txo3fr.jpg", "Rachel Woolford"], ["2023.01.25_-_Clinical_Trap_81-82_1_v0xwxg.jpg", "Rachel Woolford"]]
 },
 {"band":"WM-BG",
     "sex": "Male",
@@ -13,56 +21,47 @@ data = [
     "banded": "10-02-2023",
     "confirmed_missing": "18-02-2023",
     "description": "One of the first of the 2023 fledglings banded, and a regular sight on Highbury Fling. Soon after banding, WM-BG was found injured and taken to the vet clinic at the zoo. This was the report received by Zealandia: 'Just wanted to let you know we had a NI Robin in which was found on Highbury Fling unable to fly. He presented with a chest wound and difficulty breathing on Saturday (18/2/23) and has been stabilised for 48 hours then had a GA for full evaluation today (20/02/23). Unfortunately the outcome was a sad one - the chest wound was large and old with dead skin and pectoral muscle covering much of the chest, plus the wound extended down towards one leg where the tissue was also very badly damaged. The chances of return to full function were minimal so he was humanely euthanased.'",
-    "images": [["2023.02.03_-_Trap_66_itbr4q.jpg", "Rachel Woolford"], ["2023.02.03_-_Trap_66_q7lgpt.jpg", "Rachel Woolford"], ["2023.02.03_-_Trap_66_qonzbr.jpg", "Rachel Woolford"], ["BG-WM_wevnvm.jpg", "Rachael Shaw"]]
-},
+    "images": [["2023.02.03_-_Trap_66_1_weztx1.jpg", "Rachel Woolford"], ["2023.02.03_-_Trap_66_z8kful.jpg", "Rachel Woolford"], ["WM-BG_gcb5id.jpg", "Rachael Shaw"]]
+}, 
 {"band":"WM-GY",
 "sex": "Male",
 "territory": {"text": "Trap 62, Highbury Fling (Lone Pine)", "lat": -41.299709858005784, "lng": 174.75137092821276},
 "banded": "10-02-2023",
 "confirmed_missing": "",
-"description": "A shy bird that took several attempts to band, and is infrequently seen.",
-"images": [["2023.01.29_-_Lone_Pine_sywfhv.jpg", "Rachel Woolford"], ["2023.02.23_-_WM-GW_-_Lone_Pine_62_qblnl8.jpg", "Rachel Woolford"], ["GY-WM_ck6bg0.jpg", "Rachael Shaw"]]
-}, 
+"description": "Once a regular sight on the fling, now possibly missing.",
+"images": [["2023.01.29_-_Lone_Pine_aghi1r.jpg", "Rachel Woolford"], ["2023.02.23_-_WM-GW_-_Lone_Pine_62_vczheh.jpg", "Rachel Woolford"], ["WM-GY_rp5odi.jpg", "Rachael Shaw"]]
+},  
 {"band":"BR-WM",
 "sex": "Female", 
 "territory": {"text": "Trap 62, Highbury Fling (Lone Pine)", "lat": -41.29964465517737, "lng": 174.75110774577067},
 "banded": "10-02-2023",
-"confirmed_missing": "",
-"description": "A cunning bird who kept snatching mealworms out of the trap before she could be caught and banded!",
-"images": [["2023.02.23_-_BR-WM_-_Trap_63_o1dbyl.jpg", "Rachel Woolford"], ["2023.02.23_-_BR-WM_-_Trap_63_vqg5pw.jpg", "Rachel Woolford"], ["2023.02.24_-_BR-WM_-_Lone_Pine_c95x50.jpg", "Rachel Woolford"], ["BR-WM_tiuknd.jpg", "Rachael Shaw"]]
-},
+"confirmed_missing": "12-04-2023",
+"description": "A cunning bird who kept snatching mealworms out of the trap before she could be caught and banded! Last seen in March 2023, presumed killed.",
+"images": [["2023.02.23_-_BR-WM_-_Trap_63_1_oauyab.jpg", "Rachel Woolford"], ["2023.02.23_-_BR-WM_-_Trap_63_m4p5qj.jpg", "Rachel Woolford"], ["BR-WM_vbrqrq.jpg", "Rachael Shaw"]]
+}, 
 {"band":"WM-RR",
     "sex": "Male",
     "territory": {"text": "Trap 63.11, Highbury Fling", "lat": -41.298395498705865, "lng": 174.750467416949},
     "banded": "10-02-2023",
     "confirmed_missing": "",
     "description": "A feisty chap with a loud call.",
-    "images": [["2021.10.22_-_Highbury_Fling_Trap_63_rfqsj5.jpg", "Rachel Woolford"], ["RR-WM_yvfbtr.jpg", "Rachael Shaw"]]
-    
-}, 
+    "images": [["2021.10.22_-_Highbury_Fling_Trap_63_qnnwyf.jpg", "Rachel Woolford"], ["WM-RR_tvcgey.jpg", "Rachael Shaw"]]
+},
 {"band":"BW-WM",
     "sex": "Unknown",
     "territory": {"text": "Trap 63.11, Highbury Fling", "lat": -41.29819240255925, "lng": 174.75050717167508},
     "banded": "10-02-2023",
-    "confirmed_missing": "",
-    "description": "Very politely showed up and waited their turn while another bird was being banded.",
-    "images": [["BW-WM_hthhmm.jpg", "Rachael Shaw"], ["BW-WM_1_kxs3vd.jpg", "Rachael Shaw"]]
+    "confirmed_missing": "09-04-2023",
+    "description": "Very politely showed up and waited their turn while another bird was being banded. Last seen in March 2023, presumed killed.",
+    "images": [["BW-WM_rnhdun.jpg", "Rachael Shaw"], ["BW-WM-1_wtpfin.jpg", "Rachael Shaw"]]
 },
 {"band":"YB-WM",
     "sex": "Unknown",
     "territory": {"text": "Trap 75, Clinical", "lat": -41.29674557743481, "lng": 174.75276856728402}, 
     "banded": "21-02-2023",
-    "confirmed_missing": "",
-    "description": "Possibly from a successful nest in Waimapihi in 2022.",
+    "confirmed_missing": "03-04-2023",
+    "description": "Possibly from a successful nest in Waimapihi in 2022. Last seen in March 2023, presumed killed.",
     "images": []
-},
-{"band":"WM-RY",
-    "sex": "Unknown",
-    "territory": {"text": "Traps 81-82, Clinical", "lat": -41.29886547584023, "lng": 174.75193693074326},
-    "banded": "25-01-2023",
-    "confirmed_missing": "",
-    "description": "An elusive bird that seemed to hide from banding.",
-    "images": [["2023.01.25_-_Clinical_Trap_81-82_wndyks.jpg", "Rachel Woolford"], ["2023.01.25_-_Clinical_Trap_81-82_b3unbp.jpg", "Rachel Woolford"], ["2023.02.12_-_Clinical_-_Trap_82-81_pjpv34.jpg", "Rachel Woolford"], ["2023.02.12_-_Clinical_-_Trap_82-81_cio521.jpg", "Rachel Woolford"]]
 },
 {"band":"WM-BY",
     "sex": "Unknown",
@@ -70,7 +69,7 @@ data = [
     "banded": "9-03-2023", 
     "confirmed_missing": "",
     "description": "",
-    "images": [["2023.03.12_-_WM-BY_-_Trap_57_Highbury_Fling_qeq8kb.jpg", "Rachel Woolford"]]
+    "images": [["2023.03.12_-_WM-BY_-_Trap_57_Highbury_Fling_tgpmnn.jpg", "Rachel Woolford"]]
 },
 {"band":"YR-WM",
     "sex": "Unknown",
@@ -78,16 +77,16 @@ data = [
     "banded": "9-03-2023",  
     "confirmed_missing": "",
     "description": "Seen foraging in a pair with its sibling, WM-BR.",
-    "images": [["2023.03.12_-_Unbanded_-_Trap_57_xmtd1t.jpg", "Rachel Woolford"], ["2023.03.12_-_Unbanded_-_Trap_57_vphsix.jpg", "Rachel Woolford"]]
-},
+    "images": [["2023.04.04_-_RY-WM_0_Highbury_Fling_Trap_57_ip8rwh.jpg", "Rachel Woolford"], ["2023.03.12_-_Unbanded_-_Trap_57_2_ztlwpe.jpg", "Rachel Woolford"]]
+}, 
 {"band":"WM-BR",
     "sex": "Unknown",
     "territory": {"text": "Trap 55, Highbury Fling", "lat": -41.30237317042216, "lng": 174.75038612626193},
     "banded": "9-03-2023",  
     "confirmed_missing": "",
     "description": "Seen foraging in a pair with its sibling, WM-BR.",
-    "images": [["2023.03.12_-_Unbanded_-_Trap_57_xmtd1t.jpg", "Rachel Woolford"], ["2023.03.12_-_Unbanded_-_Trap_57_vphsix.jpg", "Rachel Woolford"]]
-},
+    "images": [["2023.02.23_-_BR-WM_-_Trap_63_1_oauyab.jpg", "Rachel Woolford"], ["2023.02.23_-_BR-WM_-_Trap_63_m4p5qj.jpg", "Rachel Woolford"]]
+},  
 {"band":"WM-GG",
     "sex": "Unknown",
     "territory": {"text": "Trap 57, Highbury Fling", "lat": -41.30188180450954, "lng": 174.75074340800776},
@@ -102,6 +101,22 @@ data = [
     "banded": "27-03-2023",  
     "confirmed_missing": "",
     "description": "One of a pair that are often seen squabbling with each other.",
-    "images": []
+    "images": [["2023.04.09_-_RG-WM_-_Kaka_Box_bu6nnn.jpg", "Rachel Woolford"]]
+},
+{"band":"YY-WM",
+    "sex": "Unknown",
+    "territory": {"text": "Trap 60-62, Highbury Fling", "lat": -41.30038756599646, "lng": 174.751026877922},
+    "banded": "12-04-2023",  
+    "confirmed_missing": "",
+    "description": ".",
+    "images": [["2023.04.17_-_YY-WM_-_Trap_62_Highbury_Fling_lx0rsp.jpg", "Rachel Woolford"]]
+}, 
+{"band":"WM-WR",
+    "sex": "Unknown",
+    "territory": {"text": "Trap 58-59, Highbury Fling", "lat": -41.30136420719939, "lng": 174.75091722167355},
+    "banded": "12-04-2023",  
+    "confirmed_missing": "",
+    "description": ".",
+    "images": [["2023.04.17_-_YY-WM_-_Trap_62_Highbury_Fling_lx0rsp.jpg", "Rachel Woolford"]]
 }
-]
+]   
