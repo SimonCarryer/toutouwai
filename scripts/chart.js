@@ -50,7 +50,7 @@ function buildBar(bird) {
     var barContainer = document.createElement("div");
     barContainer.className = "barContainer";
     barContainer.onclick = function() {
-        changeBird(bird.band);
+        addBirdCard(bird);
     };
     var barPre = document.createElement("div");
     barPre.className = "bar pre";
