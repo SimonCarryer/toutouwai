@@ -29,7 +29,7 @@ function buildSlider(bird) {
     bird.images.forEach((image, index) => {
         let slide = document.createElement("div");
         slide.id = `img-${bird.band}-${index}`;
-        slide.innerHTML = `<img class="bgImg" src="https://res.cloudinary.com/dnfcta4li/image/upload/v1682391606/birds/${image[0]}"><img title="Photo credit ${image[1]}" src="https://res.cloudinary.com/dnfcta4li/image/upload/v1682391606/birds/${image[0]}">`;
+        slide.innerHTML = `<img class="bgImg" src="https://res.cloudinary.com/dnfcta4li/image/upload/v1682391606/birds/${image[0]}"><img title="Photo credit ${image[1]}" src="https://res.cloudinary.com/dnfcta4li/image/upload/${image[0]}">`;
         slides.appendChild(slide) 
     })
     slider.appendChild(slides);
